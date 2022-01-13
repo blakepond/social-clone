@@ -1,0 +1,27 @@
+.widget {
+   flex: 0.3;
+}
+.widget_input {
+   display: flex;
+   align-items: center;
+   /* background-color: var(--main-background); */
+   padding: 10px;
+   border-radius: 20px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.widget_input > input {
+   border: none;
+   background-color: var(--main-background);
+}
+.widget_search {
+   margin-top: 15px;
+   margin-left: 20px;
+   padding: 20px;
+   background-color: #f5f8fa;
+   border-radius: 20px;
+}
+.widget_container > h2 {
+   font-size: 18px;
+   font-weight: 800;
+}
